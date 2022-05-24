@@ -1,0 +1,22 @@
+		 workshop 1 part 2
+     Full Name  : smit anjaykumar patel
+     Student ID#: 104424213
+     Email      : sapatel59@myseneca.ca
+     Section    : IPC144NMM.10348.2221
+     Authenticity Declaration:
+     I declare this submission is the result of my own work and has not been
+     shared with any other student or 3rd party content provider. This submitted
+     piece of work is entirely of my own creation.
+
+
+1. What you have learned in completing this workshop ?
+Answer : In this workshop I have learned numerous things, for example, how to utilize visual studio,WinSCP, Putty and furthermore the primary thing how to compose C program . It was my first time I composed a C program
+and furthermore figured out how to present our program whith the assistance of Matrix. And furthermore figured out how to move records from our PC to framework utilizing WinSCP and furthermore how to utilize order like 'mkdir','cd' ,'ls' and so on .
+
+2. Brief describe what SSH is and how you used it in this workshop ?
+Answer : SSH which is Secure shell telnet customer which assists us with opening and run linux server like grid . I involved Putty in our workshop with the assistance of connection provided.I can likewise login into it and furthermore test our c program . it additionally assists with presenting our workshop.I got little tensed before submitting the workshop but now when I came to know how the ssh works , it feels so helpful to submit our work.
+
+3. Briefly describe what SFTP is and how you used it in this workshop?
+Answer : SFTP which represents secure file transfer protocol . It resembles span among linux and windows so it can transfer our code or some other file to linux. it makes a daily existence simple like we can compose our coad in visual studio and afterward accumulate and run in matrix.And additionally it can creat new dictonary straightforwardly without composing order in linux , In this workshop we utilized WinSCP programming and furthermore figured out how to utilize this product. Winscp is better graphical version to transfer files between matrix and our programming files.
+
+  
