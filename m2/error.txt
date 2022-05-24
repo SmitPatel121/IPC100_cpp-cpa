@@ -1,0 +1,155 @@
+In file included from a1ms2Master.c:7:0:
+clinic.h:56:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ struct Patients pet{
+                    ^
+clinic.h:69:24: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘*’ token
+     struct Patients pet* Patients_p;
+                        ^
+clinic.h:83:50: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void displayPatientData(const struct Patients pet* Patients, int FMT);
+                                                  ^
+clinic.h:94:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void menuPatient(struct Patients pet Patients[], int Maximum);
+                                      ^
+clinic.h:97:41: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void menuPatientEdit(struct Patients pet* Patients);
+                                         ^
+clinic.h:107:51: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void displayAllPatients(const struct Patients pet Patients[], int Maximum, int FMT);
+                                                   ^
+clinic.h:110:50: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientData(const struct Patients pet Patients[], int Maximum);
+                                                  ^
+clinic.h:113:37: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void addPatient(struct Patients pet Patients[], int Maximum);
+                                     ^
+clinic.h:116:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void editPatient(struct Patients pet Patients[], int Maximum);
+                                      ^
+clinic.h:119:40: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void removePatient(struct Patients pet Patients[], int Maximum);
+                                        ^
+clinic.h:127:61: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientByPatientNumber(const struct Patients pet Patients[], int Maximum);
+                                                             ^
+clinic.h:130:59: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientByPhoneNumber(const struct Patients pet Patients[], int Maximum);
+                                                           ^
+clinic.h:133:49: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ int nextPatientNumber(const struct Patients pet Patients[], int Maximum);
+                                                 ^
+clinic.h:137:60: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+                                  const struct Patients pet Patients[], int Maximum);
+                                                            ^
+clinic.h:145:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void inputPatient(struct Patients pet* Patients);
+                                      ^
+a1ms2Master.c: In function ‘main’:
+a1ms2Master.c:13:20: error: array type has incomplete element type
+     struct Patient pets[MAX_PETS] = { 
+                    ^
+a1ms2Master.c:21:12: warning: excess elements in struct initializer [enabled by default]
+     struct ClinicData data = { pets, MAX_PETS};
+            ^
+a1ms2Master.c:21:12: warning: (near initialization for ‘data’) [enabled by default]
+a1ms2Master.c:21:12: warning: excess elements in struct initializer [enabled by default]
+a1ms2Master.c:21:12: warning: (near initialization for ‘data’) [enabled by default]
+a1ms2Master.c:13:20: warning: unused variable ‘pets’ [-Wunused-variable]
+     struct Patient pets[MAX_PETS] = { 
+                    ^
+In file included from clinic.c:24:0:
+clinic.h:56:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ struct Patients pet{
+                    ^
+clinic.h:69:24: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘*’ token
+     struct Patients pet* Patients_p;
+                        ^
+clinic.h:83:50: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void displayPatientData(const struct Patients pet* Patients, int FMT);
+                                                  ^
+clinic.h:94:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void menuPatient(struct Patients pet Patients[], int Maximum);
+                                      ^
+clinic.h:97:41: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void menuPatientEdit(struct Patients pet* Patients);
+                                         ^
+clinic.h:107:51: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void displayAllPatients(const struct Patients pet Patients[], int Maximum, int FMT);
+                                                   ^
+clinic.h:110:50: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientData(const struct Patients pet Patients[], int Maximum);
+                                                  ^
+clinic.h:113:37: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void addPatient(struct Patients pet Patients[], int Maximum);
+                                     ^
+clinic.h:116:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void editPatient(struct Patients pet Patients[], int Maximum);
+                                      ^
+clinic.h:119:40: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void removePatient(struct Patients pet Patients[], int Maximum);
+                                        ^
+clinic.h:127:61: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientByPatientNumber(const struct Patients pet Patients[], int Maximum);
+                                                             ^
+clinic.h:130:59: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientByPhoneNumber(const struct Patients pet Patients[], int Maximum);
+                                                           ^
+clinic.h:133:49: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ int nextPatientNumber(const struct Patients pet Patients[], int Maximum);
+                                                 ^
+clinic.h:137:60: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+                                  const struct Patients pet Patients[], int Maximum);
+                                                            ^
+clinic.h:145:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void inputPatient(struct Patients pet* Patients);
+                                      ^
+clinic.c:40:51: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void displayPatientData(const struct Patients pet *Patients, int FMT)
+                                                   ^
+clinic.c: In function ‘menuMain’:
+clinic.c:96:13: warning: implicit declaration of function ‘menuPatient’ [-Wimplicit-function-declaration]
+             menuPatient(Data_data->Patients_p, Data_data->max_Patient);
+             ^
+clinic.c:96:34: error: ‘struct ClinicData’ has no member named ‘Patients_p’
+             menuPatient(Data_data->Patients_p, Data_data->max_Patient);
+                                  ^
+clinic.c:96:57: error: ‘struct ClinicData’ has no member named ‘max_Patient’
+             menuPatient(Data_data->Patients_p, Data_data->max_Patient);
+                                                         ^
+clinic.c: At top level:
+clinic.c:107:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void menuPatient(struct Patients pet Patients[], int Maximum)
+                                      ^
+clinic.c:152:42: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void menuPatientEdit(struct Patients pet *Patients)
+                                          ^
+clinic.c:199:51: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void displayAllPatients(const struct Patients pet Patients[], int Maximum, int FMT)
+                                                   ^
+clinic.c:221:50: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientData(const struct Patients pet Patients[], int Maximum)
+                                                  ^
+clinic.c:255:37: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void addPatient(struct Patients pet Patients[], int Maximum)
+                                     ^
+clinic.c:279:38: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void editPatient(struct Patients pet Patients[], int Maximum)
+                                      ^
+clinic.c:305:40: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void removePatient(struct Patients pet Patients[], int Maximum)
+                                        ^
+clinic.c:342:61: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientByPatientNumber(const struct Patients pet Patients[], int Maximum)
+                                                             ^
+clinic.c:361:59: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ void searchPatientByPhoneNumber(const struct Patients pet Patients[], int max)
+                                                           ^
+clinic.c:396:49: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ int nextPatientNumber(const struct Patients pet Patients[], int Maximum)
+                                                 ^
+clinic.c:409:79: error: expected ‘;’, ‘,’ or ‘)’ before ‘Patients’
+ int findPatientIndexByPatientNum(int patientNumber, const struct Patients pet Patients[], int Maximum)
+                                                                               ^
+clinic.c:430:39: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ void inputPatient(struct Patients pet *Patients)
+                                       ^

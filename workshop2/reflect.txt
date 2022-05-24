@@ -1,0 +1,28 @@
+/*
+    ==================================================
+     Workshop 2
+    ==================================================
+    Name   : Smit Anjaykumar Patel
+    ID     : 104424213
+    Email  : sapatel59@myseneca.ca
+    Section: IPC144NMM.10348.2221
+*/
+
+Answer 1 :
+I found the most difficult part was to print the table and the print of the coad was to print ""\n 1 |   1   |   0   |    1   |   0  |  250 |  0.551 |   1   |  65.7 | 150.3" " .I found this printing the output very difficult.
+
+ 
+Answer 2 :
+ We can apply deMorgan's law in print the Maker ([R]esidential == 'R' || [R]esidential == 'r')== mk_residental
+It can be written of the form :
+([R]esidential == 'R' && [R]esidential == 'r')!= mk_residental
+
+It is all based on applied demorgan's law.
+
+
+
+
+
+Answer 3:
+From my point of view it was preferred approach because it helps to cover celsius into Fahrenheit 
+Which was not stored in variables.

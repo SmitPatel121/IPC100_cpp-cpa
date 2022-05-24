@@ -1,0 +1,14 @@
+In line number 23 of your output:
+The output should be:
+   Item cost: $39030.15
+               ^
+But your output is: 
+   Item cost: $0
+               ^
+
+Unmatched character details:
+The character in column 16 is supposed to be:
+  [3] ASCII code(51)
+but you printed
+  [0] ASCII code(48)
+

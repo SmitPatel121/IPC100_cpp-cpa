@@ -1,0 +1,110 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #5
+Full Name  : Smit Anjaykumar patel
+Student ID#: 104424213
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1.Mapping of the month integer value to the first characters of the month name could have been accomplished using two possible construct
+
+A)using  if else
+ 
+example :
+
+#include <stdio.h>
+
+int main(void)
+{   int month;
+    printf("enter value of month   in numerical format MM : ");
+    scanf(" %d",&month);
+
+    if (month==6)
+	{
+		printf("JUN");
+       }	
+    Else if (month==7)
+	{
+		printf(" JULY");
+       }
+       ....//until DEC we have to use else if statement
+       
+       return 0 ;	
+}
+
+B) Using switch 
+
+  Example :
+  
+  
+#include <stdio.h>
+
+int main(void)
+{
+	Int month ;
+	
+	printf(" Enter value of month in numerical format MM :”);
+      scanf(" %d",&month);
+
+	switch(month)
+	{
+	  Case 1:
+	 	printf(" Jun");
+		break;
+		
+		printf(" July");
+		break;
+// we have to write this until DEC
+       	default;
+       		printf(" Invalid");
+       }
+       
+  Return 0 ;
+
+}
+
+So this are the two ways by which we can change integer value of month to the first three character of the month .
+
+
+2.There are three iteration constructs
+ i)While
+ ii)do-while
+ iii)for
+ 
+In my program, I have used while loop as follows:
+	#include <stdio.h>
+       Int main ()
+       {
+       	Int month ;
+       	printf(ÒEnter integer value for month: Ò);
+       	scanf(" %d", %month);
+       
+       	int valid = 1;
+       	bool Ifvalid = false ;
+       	while(valid <= 12)
+       	{
+       	 If (valid == month)
+			{
+				ifValid = true ;
+				break ;
+       }
+       valid ++ ;
+       }
+       	If (!ifValid)
+       	{
+       	   Printf("Invalid integer month provide")
+       }
+       return 0 ; 
+       } 
+       Reason: we need to traverse through the valid month integers to check if the input value is one of the valid values. I can do so using while as shown above .
+       
+       
+
+
+3. To run and test the program, I used a main c program and executed it on various possible cases. Many times I got errors and to debug the issue, I used printf statements to inspect if the scanf function is getting correct inputs. I also used debug function in visual studio form the line which I get error.i have also used cs50.ide cloud based coad compiler from havard university it also prive debugging facility to debug the coad I find it better to use this function and it helps me a lot to solve the problem.
+       
+

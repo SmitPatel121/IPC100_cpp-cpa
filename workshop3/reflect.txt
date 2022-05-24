@@ -1,0 +1,37 @@
+/* *****************************************************************************
+                   Reflection.txt
+     Full Name  : Smit anjaykumar patel
+     Student ID#: 104424213
+     Email      : sapatel59@myseneca.ca
+     Section    : IPC144NMM.10348.2221
+
+     Authenticity Declaration:
+     I declare this submission is the result of my own work and has not been
+     shared with any other student or 3rd party content provider. This submitted
+     piece of work is entirely of my own creation.
+     ***************************************************************************** */
+
+1. This is on the grounds that when we are increasing 10.12 it is getting changed over to 10.11 after you are applying type transformation to (10.12*100).Consequently at the hour of printing the worth of cents2, it will print 1011 rather than 1012. This issue won't happen with 10.00,10.11,10.13,10.14,10.15 on the grounds that after 10.13 sort transformation will consider the upper worth that is 10.1299999 will be considered as 10.13. Be that as it may, 10.119999999 will be thought of as 10.12. Since from 10.10 to 10.15, 10.12 is the main centre worth that is equidistant from 10.10 and 10.15. Rest any remaining qualities are not equidistant from 10.10 and 10.15. Consequently cants2 won't address the right worth.
+
+2. We can use this following code:
+
+#include<stdio.h>
+
+Int main(void)
+{
+	int x ;
+ 	printf("enter the value of bill :");
+	scanf(%d,&x);
+	
+	x = x%50 ;
+	
+	x = x/20
+
+	printf("$20 is %d", x);
+
+
+	return 0;
+}
+
+3. 
+

@@ -1,0 +1,44 @@
+
+       	*****************************************************************************
+                               Reflection
+                             Workshop - #7
+Full Name  : Smit Anjaykumar Patel
+Student ID#: 104424213
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+			
+       
+       
+       
+1. The advantage of using user-defined data types is that you can document the  data structure yourself. The advantage is that you can change the data type  to your liking. User-defined data types make it easy to document data types and software documentation. This is because the data types are user-defined, making it easy to document user-defined data types. User preference. Reduced complexity: Complex programs can be subdivided into smaller subprograms or user-defined types.  Program readability: Using custom types has complex issues with various subprograms, including 
+ lenses and interfaces, and there is an interface that allows you to understand  logic behind the 
+ program. 
+ Example:
+
+struct GameInfo
+{
+int move;
+int pathlength;
+int buried_bomb[MAX_PATHLENGTH];
+int buried_treasure[MAX_PATHLENGTH];
+};
+
+int main(void)
+{
+struct GameInfo gameConfiguration = { 0,0,{0},{0} };
+
+printf("Set the path length:");
+
+scanf(" %d", &gameConfiguration.pathlength);
+
+return 0;
+}
+
+2.  There are some things to enable programs, but the most important thing is to add a variable for the history of the game with the structure of GameInfo first. Next, create an array of stories simply by creating for the input position and saving these values ??to an array. Then you can use loops when the last game is final to get the output when you want to display the last  game. 
+
+
+3. At the beginning of the program, I forgot `; `When I was declaring a user-defined type structure, I used a math programmatically, but  I got an error, so I was relieved of fear and fixed a book that helped me  write  loops and conditional statements. I made a mistake creating a loop that I spent most of my time creating. The problem with this was that I couldn't get out of the loop, so I ran and reached the condition, and every time I pressed the Enter key again, the same thing was output, and after a lot of headaches, I used debug in each loop and myself. I was able to know where I was. No, Visual Studio's debugging tools helped me  solve the errors and problems I face while writing the program.

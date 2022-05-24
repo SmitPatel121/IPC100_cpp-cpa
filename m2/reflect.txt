@@ -1,0 +1,33 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 2
+Full Name  : Smit Anjaykumar Patel
+Student ID#: 104424213
+Email      : sapatel59@myseneca.ca
+Section    : IPC144NMM.10348.2221
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+
+[1] When naming a module or library, you must use the name that uses the purpose of using these libraries. 
+ do. For example, in this milestone, the clinic module handles animal clinic menu systems. We are not what kind of  
+ Special characters are named to the library except _, which can lead to confusion. . H file and .c file main reason for OPF 
+ The same library  is  very practical to understand that end users are both files, so they receive the same name. 
+ It is processed in part of a single package. For example, core.h and core.c is pointed out that content has a kind similarity. 
+ These files.
+
+ 
+[2] Modules are an efficient  programming method that divides a large program into manageable parts. 
+ The reason for using the  two modules in this program is to reduce the overall complexity of the  code when  viewed as small bits. 
+ If you hadn't created the module, all the code was contained in  a .c file and a single file that was a coder. 
+ Anyone who wants to change this work in the future will have to work hard to find the bugs and features they need. Instead, a single large code file is used. 
+ A small module. The reason the  
+ 
+
+
+
+[3] module is split into both  .c and  .h files is that  the code is easier to maintain and prototypes user-defined data types and all functions. Therefore, if a programmer wants to add  content to a user-defined data type, he can  change it directly in the .h file instead of looking for the content in  long  code.

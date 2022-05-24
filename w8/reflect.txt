@@ -1,0 +1,66 @@
+
+       	*****************************************************************************
+                               Reflection
+                             Workshop - #8
+Full Name  : Smit Anjaykumar Patel
+Student ID#: 104424213
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+			
+
+
+
+question 1: 
+Answer:  Structural data can consume a large amount of memory due to the data entered and the data displayed according to its requirements 
+. The "ReportData" structure requires bytes according to the  stored data. For example, "displayReportData" .
+
+printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf",
+		info_report_info.price_sku, info_report_info.cost_rate, info_report_info.mass_weight, info_report_info.Kilo_gram_kg, info_report_info.gram_gm,
+		info_report_info.cal_calories, info_report_info.Sum_total_service, info_report_info.Serve_per_weigh,
+		info_report_info.per_cal_services);
+
+
+
+
+
+
+question 2:
+Answer:
+
+struct ReportData
+{
+	int price_sku;
+	
+	int cal_calories;
+	
+	int gram_gm;
+	
+	double Sum_total_service;
+	
+	double Serve_per_weigh;
+	
+	double per_cal_services;
+	
+	double cost_rate;
+	
+	double mass_weight;
+	
+	double Kilo_gram_kg;
+};
+
+
+struct CatFoodInfo
+{
+	int price_sku;
+	double product_rate;
+	int cal_calories;
+	double mass_weight_to_lb;
+};
+
+
+Here we have the same predefined variables for both structural data types, and we can also implement them in a single structure. 
+  CatFoodInfo has four predefined variables, and these four variables  also exist in ReportData.
